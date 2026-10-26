@@ -20,10 +20,11 @@
 - [x] Clean Windows environment and offline rules demo validated without dependencies.
 - [ ] Full pipeline validated outside the private development environment.
 - [x] Standard-library test runner and Windows/Linux CI workflow for public fixtures.
-- [ ] Hosted CI observed passing; full-pipeline dependency lock.
+- [x] Hosted public-demo CI passed on Windows and Ubuntu.
+- [ ] Full-pipeline dependency lock.
 - [ ] Full review of publishable files, notices and model artifact license.
 - [ ] Reviewed real screenshots and video excerpts.
-- [x] Git initialization and remote account verification; first source push authorized.
+- [x] Independent public source repository created and first push completed on 26 October 2026.
 
 ## Subsequent engineering
 

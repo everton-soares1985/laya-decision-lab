@@ -43,8 +43,9 @@ checks unknown facts and ambiguous equivalent options.
 
 Validation on 2026-10-25 used a new virtual environment with `--without-pip`,
 only four required source modules, the two public fixtures and the test module.
-All four tests and nine demo cases passed. Linux CI is configured but not yet
-observed on a hosted runner.
+All four tests and nine demo cases passed at that stage. On 26 October the expanded
+five-test suite and demo also passed on GitHub's Windows and Ubuntu runners
+([initial source run](https://github.com/everton-soares1985/laya-decision-lab/actions/runs/40268741931)).
 
 ## Full-pipeline status: local reproduction, public packaging pending
 
@@ -84,8 +85,8 @@ Do not copy an arbitrary local freeze containing machine paths into a release.
 
 | Location | Current dependency | Packaging work still needed |
 |---|---|---|
-| `prepare_dataset.py` | Absolute path to original capture sessions | Configurable input and fictitious fixture |
-| `retrieve_openrouter.py` | Environment-file path in the LinkedIn project | Independent credential configuration |
+| `prepare_dataset.py` | Authorized capture data, configurable via environment/local settings | Public full-training fixture |
+| `retrieve_openrouter.py` | API credential via process, project .env or local settings | User supplies credentials only when opting into API |
 | `run_pipeline.py` | Selected historical run/checkpoint and training schema | Explicit artifact arguments or manifest |
 | `generate_answer.py` | Private profile under `data/knowledge` | Public example profile and validation workflow |
 | `run_probe.py` | Windows virtual-environment executable and upstream vendor checkout | Documented provisioning and platform contract |

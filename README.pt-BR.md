@@ -48,8 +48,8 @@ Se já existe um ambiente virtual, apenas ative-o. A demo usa dados fictícios e
 valida nove casos do resolvedor existente. **Não executa Laya nem RAG**: demonstra
 o contrato de respostas e as recusas por falta de evidência. Foi verificada em
 ambiente novo, sem dependências. O pipeline completo ainda depende dos artefatos
-de treinamento e da base privada. CI Windows/Linux preparado, ainda não executado
-no GitHub.
+de treinamento e da base privada. Os testes públicos passaram no GitHub em
+Windows e Linux; o status atualizado está na aba Actions do repositório.
 
 ## Guias
 

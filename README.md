@@ -7,6 +7,7 @@
 **From multilingual questions to evidence-grounded decisions.**
 
 ![Stage: experimental V1](https://img.shields.io/badge/stage-experimental_V1-e0a458)
+[![Public offline tests](https://github.com/everton-soares1985/laya-decision-lab/actions/workflows/public-demo.yml/badge.svg)](https://github.com/everton-soares1985/laya-decision-lab/actions/workflows/public-demo.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB)
 ![CPU fine-tuning](https://img.shields.io/badge/fine--tuning-full_parameters-58c4b8)
 ![Hybrid retrieval](https://img.shields.io/badge/retrieval-Qdrant_%2B_BM25-668cff)
@@ -164,7 +165,7 @@ The public fixture is **invented**, not the author's profile. Nine cases verify
 supported answers and deliberate abstentions, using the existing answer renderer.
 This entry point does **not** run Laya, embeddings, hybrid RAG or a generative API.
 Its console and JSON report make that boundary explicit. It demonstrates the
-answer contract, not end-to-end model performance. Four standard-library tests
+answer contract, not end-to-end model performance. Five standard-library tests
 verify the contract and reject paid/private-mode combinations.
 
 The demo and tests passed in a separate, dependency-free Windows Python environment

@@ -1,5 +1,15 @@
 # Publication checklist
 
+## First public source push — 2026-10-26
+
+Repository: [everton-soares1985/laya-decision-lab](https://github.com/everton-soares1985/laya-decision-lab).
+Public visibility and default branch `main` verified through the GitHub API.
+Initial source commit: `182af3e`. The reviewed training still and banner were
+verified present remotely. No weights, original videos or private profiles uploaded.
+Hosted [run 40268741931](https://github.com/everton-soares1985/laya-decision-lab/actions/runs/40268741931)
+passed on both `windows-latest` and `ubuntu-latest` for that source commit.
+Older audit snapshots below describe their original point in time.
+
 ## Validation update — 2026-10-26
 
 - Answer, retrieval and adapter self-tests now use a separate fictional profile.
@@ -8,7 +18,8 @@
 - AST comparison confirmed 21 runtime function/class definitions unchanged across
   the three edited modules; legacy self-test assertion counts were preserved.
 - Source review found no remaining old personal city/compensation literals in
-  the answer and adapter modules. Catalog/path/history review remains pending.
+  the answer and adapter modules. Catalog/path/history findings were subsequently
+  resolved before the source push, as recorded in PUBLICATION_SCOPE.md.
 
 ## Validation snapshot — 2026-10-25
 
@@ -59,7 +70,7 @@ one warning for the uncommitted initial worktree), five tests and nine demo case
 - [ ] Inspect Mermaid rendering on the intended GitHub preview.
 - [ ] Review videos fully and approve selected clips before upload.
 - [x] Review one authentic still and match it to its earlier experiment's worker log.
-- [ ] Verify README/media links on the actual remote repository.
+- [x] Verify repository, README source and included media presence on the remote.
 
 The first source push is authorized. Commit identity uses the verified account's
 GitHub noreply address, not the owner's personal email. Full weights and raw

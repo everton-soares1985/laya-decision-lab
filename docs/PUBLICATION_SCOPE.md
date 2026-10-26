@@ -13,7 +13,7 @@ Do not use a blanket `git add .` before reviewing source and the staged diff.
 | Real training still | `screenshots/training-synthetic-expansion.png` | Visually reviewed; caption identifies the earlier expansion experiment |
 | Training evidence | `docs/TRAINING_EVIDENCE.json` | Selected metrics only, source hash, no question text or personal answers |
 | Fictional demo | `examples/public/*.json`, `tests/test_public_demo.py` | Offline tests passed; fixtures explicitly fictional |
-| CI | `.github/workflows/public-demo.yml` | Authored, not yet executed by GitHub |
+| CI | `.github/workflows/public-demo.yml` | Initial source run passed on Windows and Ubuntu |
 | Implementation | `scripts/*.py`, `requirements-retrieval.txt` | Source reviewed; full-pipeline artifacts remain local |
 
 ## Source-level review resolutions
