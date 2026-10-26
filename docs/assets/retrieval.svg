@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="660" viewBox="0 0 1280 660" role="img" aria-labelledby="title desc">
+<title id="title">Inside the hybrid retrieval layer</title><desc id="desc">Confirmed fact descriptions are embedded into 1536 dimensions and searched in local Qdrant. BM25 provides lexical ranking. RRF merges rankings and scope validation determines which facts support the answer. Vectors shown are illustrative.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#71d9c1"/></marker></defs>
+<rect width="1280" height="660" rx="20" fill="#0d192a"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="46" y="57" fill="#eef5ff" font-size="31" font-weight="700">Inside the hybrid retrieval layer</text>
+<text x="46" y="91" fill="#b6c6dd" font-size="18">Index descriptions. Recover facts. Validate scope before answering.</text>
+<g fill="#152b41" stroke="#38566e"><rect x="46" y="145" width="255" height="168" rx="14"/><rect x="367" y="145" width="255" height="168" rx="14"/><rect x="688" y="145" width="255" height="168" rx="14"/><rect x="367" y="379" width="255" height="135" rx="14"/><rect x="688" y="379" width="255" height="135" rx="14"/><rect x="1009" y="271" width="225" height="193" rx="14"/></g>
+<g fill="#80e8ce" font-size="17" letter-spacing="1"><text x="65" y="177">01 · DESCRIPTION</text><text x="386" y="177">02 · EMBEDDING API</text><text x="707" y="177">03 · VECTOR INDEX</text></g>
+<g fill="#f2f6ff" font-size="24" font-weight="600"><text x="65" y="215">A searchable unit</text><text x="386" y="215">1,536 dimensions</text><text x="707" y="215">Qdrant · local</text><text x="386" y="417">SQLite FTS5</text><text x="707" y="417">Rank fusion</text><text x="1028" y="312">Scope validator</text></g>
+<g fill="#c0cfe1" font-size="18"><text x="65" y="253">Expected compensation</text><text x="65" y="281">in a specified currency</text><text x="386" y="253">[0.12, −0.08, …]</text><text x="386" y="281">Illustrative values only</text><text x="707" y="253">Cosine similarity</text><text x="707" y="281">Payload → fact ID</text><text x="386" y="454">BM25 lexical ranking</text><text x="386" y="484">Complementary evidence</text><text x="707" y="454">RRF · k = 60</text><text x="707" y="484">Top 3 candidate IDs</text><text x="1028" y="350">Currency / period</text><text x="1028" y="382">Source / constraints</text><text x="1028" y="414">Supported answer</text><text x="1028" y="440">or unresolved status</text></g>
+<g fill="none" stroke="#71d9c1" stroke-width="2" marker-end="url(#arrow)"><path d="M301 230H360"/><path d="M622 230H681"/><path d="M174 313V446H360"/><path d="M816 313V372"/><path d="M622 446H681"/><path d="M943 446H975V368H1002"/></g>
+<rect x="46" y="565" width="1188" height="55" rx="12" fill="#21334b"/>
+<text x="68" y="600" fill="#d3e0f3" font-size="19">Similarity ≠ truth. The private fact value is resolved locally; a nearby vector alone never authorizes an answer.</text>
+</g></svg>

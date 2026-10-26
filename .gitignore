@@ -1,0 +1,23 @@
+.venv/
+vendor/
+cache/
+runs/
+__pycache__/
+.env
+data/
+Laya_Midia/
+# Historical operational notes contain local paths and personal context.
+PROJECT_LOG.md
+*.mkv
+*.mp4
+*.webm
+*.safetensors
+*.pt
+*.pth
+*.sqlite3
+*.db
+.env.*
+!.env.example
+# Historical QA examples reference personal facts and private capture provenance.
+# Only the explicitly fictional subdirectory is intended for public distribution.
+examples/*.json

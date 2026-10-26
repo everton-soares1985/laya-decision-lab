@@ -1,0 +1,19 @@
+name: Public offline demo
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Public tests (standard library only)
+        run: python -X utf8 -m unittest discover -s tests -v
+      - name: Run fictional offline demo
+        run: python -X utf8 scripts/run_pipeline.py --public-demo

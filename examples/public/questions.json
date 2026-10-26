@@ -1,0 +1,11 @@
+[
+  {"id":"english_choice","question":"What is your English proficiency level?","kind":"choice","options":["Basic","Professional"],"expected_status":"answer_ready","expected_answer":"Basic"},
+  {"id":"salary_usd","question":"What is your monthly salary expectation in USD?","kind":"number","expected_status":"answer_ready","expected_answer":"1800"},
+  {"id":"python_practical","question":"How many years of practical Python experience do you have?","kind":"number","expected_status":"answer_ready","expected_answer":"2"},
+  {"id":"immediate_start","question":"Can you start immediately?","kind":"choice","options":["Sim","Não"],"expected_status":"answer_ready","expected_answer":"Não"},
+  {"id":"unsupported_degree","question":"Which university awarded your bachelor's degree?","kind":"text","expected_status":"needs_information","expected_answer":null},
+  {"id":"wrong_currency","question":"What is your monthly salary expectation in MXN?","kind":"number","expected_status":"needs_information","expected_answer":null},
+  {"id":"professional_years","question":"How many years of professional work experience do you have with Python?","kind":"number","expected_status":"needs_information","expected_answer":null},
+  {"id":"missing_option","question":"What is your English proficiency level?","kind":"choice","options":["Fluent","Native"],"expected_status":"needs_information","expected_answer":null},
+  {"id":"unsupported_narrative","question":"Describe your production machine learning project","kind":"open","expected_status":"needs_information","expected_answer":null}
+]

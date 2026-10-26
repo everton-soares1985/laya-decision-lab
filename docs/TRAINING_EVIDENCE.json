@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "reviewed_metrics_extract",
+  "experiment": "full_20261020_185211_497996",
+  "source_artifact": "result.json",
+  "source_sha256": "18d61201dcbe70b08f903db28a2dcd48baa31ccb08bd4e039619bae10a4a7d6c",
+  "model": "convaiinnovations/laya-multilingual",
+  "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "device": "cpu",
+  "threads": 6,
+  "mode": "full",
+  "total_parameters": 321908995,
+  "trainable_parameters": 321908995,
+  "train_examples": 113,
+  "epochs": 4,
+  "optimizer_updates": 452,
+  "encoder_learning_rate": 0.000025,
+  "head_learning_rate": 0.0001,
+  "training_seconds": 925.3440000000119,
+  "epoch_losses": [1.7219431962886955, 0.8647073720047367, 0.7161984703467985, 0.2067839775260169],
+  "diagnostic_test": {"items": 12, "base_accuracy_rounded": 0.6667, "finetuned_accuracy_rounded": 0.8333},
+  "validation": {"items": 12, "accuracy": 0.75},
+  "calibrated": false,
+  "limitations": [
+    "Small development splits inspected during iteration; not an unbiased production benchmark.",
+    "This extract omits machine paths, weights, captured questions and personal answers.",
+    "The source hash links to a private local artifact; it is not independent verification or a reproducible dataset.",
+    "Metrics concern topic classification, not end-to-end application success."
+  ]
+}

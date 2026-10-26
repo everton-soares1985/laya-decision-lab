@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+<title id="title">Full-parameter fine-tuning: recorded experiment</title><desc id="desc">113 training examples, four epochs and 452 optimizer updates trained 321908995 parameters on CPU. The diagnostic test improved from eight to ten correct out of twelve. Small inspected splits are not a production accuracy estimate.</desc>
+<rect width="1280" height="560" rx="20" fill="#0d192a"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="48" y="60" fill="#f0f6ff" font-size="32" font-weight="700">Full-parameter fine-tuning, on CPU</text>
+<text x="48" y="96" fill="#b8c9df" font-size="19">Recorded experiment · question-only topic classification · 20 October 2026</text>
+<g fill="#172e44"><rect x="48" y="139" width="355" height="115" rx="12"/><rect x="462" y="139" width="355" height="115" rx="12"/><rect x="876" y="139" width="355" height="115" rx="12"/></g>
+<g fill="#83e4d0" font-size="40" font-weight="700"><text x="70" y="191">321,908,995</text><text x="484" y="191">113 × 4</text><text x="898" y="191">452</text></g>
+<g fill="#d3deed" font-size="19"><text x="70" y="229">Trainable parameters</text><text x="484" y="229">Examples × epochs</text><text x="898" y="229">Optimizer updates</text></g>
+<text x="48" y="309" fill="#e6eefb" font-size="23">Diagnostic test: correct topic predictions out of 12</text>
+<text x="48" y="355" fill="#b8c9df" font-size="20">Base</text><rect x="200" y="331" width="720" height="33" rx="5" fill="#1c3047"/><rect x="200" y="331" width="480" height="33" rx="5" fill="#839ee9"/><text x="940" y="355" fill="#eef5ff" font-size="21">8 / 12</text>
+<text x="48" y="407" fill="#b8c9df" font-size="20">Fine-tuned</text><rect x="200" y="383" width="720" height="33" rx="5" fill="#1c3047"/><rect x="200" y="383" width="600" height="33" rx="5" fill="#68d8bb"/><text x="940" y="407" fill="#eef5ff" font-size="21">10 / 12</text>
+<text x="48" y="466" fill="#d3deed" font-size="19">Validation: 9 / 12 · Training: 925.344 seconds · Six CPU threads · Not calibrated</text>
+<text x="48" y="515" fill="#edc080" font-size="19">Small, inspected development splits. Not an unbiased estimate of production accuracy.</text>
+</g></svg>

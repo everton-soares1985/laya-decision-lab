@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "fixture_type": "fictional_public_demo",
+  "description": "Invented values for software testing. Not the owner's profile or a real applicant.",
+  "policies": {"application_defaults": {"enabled": false}},
+  "facts": [
+    {
+      "id": "english_level",
+      "value": "Basic",
+      "status": "confirmed",
+      "source": {"kind": "fictional_fixture", "evidence": "Authored demo fact, not personal data"},
+      "constraints": ["Self-declared basic level; no certificate or CEFR claim"],
+      "ai_export": false
+    },
+    {
+      "id": "salary_usd_month",
+      "value": {"amount": 1800, "currency": "USD", "period": "month"},
+      "status": "confirmed",
+      "source": {"kind": "fictional_fixture", "evidence": "Authored demo fact, not personal data"},
+      "constraints": ["Monthly expectation only; no currency conversion, actual earnings or net-pay claim"],
+      "ai_export": false
+    },
+    {
+      "id": "python_practical_years",
+      "value": {"approximate_years": 2},
+      "status": "confirmed",
+      "source": {"kind": "fictional_fixture", "evidence": "Authored demo fact, not personal data"},
+      "constraints": ["Practical use only; not professional employment duration"],
+      "ai_export": false
+    },
+    {
+      "id": "immediate_start",
+      "value": "No",
+      "status": "confirmed",
+      "source": {"kind": "fictional_fixture", "evidence": "Authored demo fact, not personal data"},
+      "constraints": ["Immediate start only; no notice-period length specified"],
+      "ai_export": false
+    }
+  ]
+}

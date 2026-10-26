@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "fixture_type": "fictional_regression",
+  "description": "Invented test data. Never use as an applicant profile. Export flags test payload assembly only; tests block network.",
+  "policies": {
+    "application_defaults": {
+      "enabled": true,
+      "accept_lower_paid_offer": true,
+      "annual_multiplier": 12,
+      "spanish_workplace_confidence": "Basic",
+      "unknown_technical_years": 0,
+      "unknown_technical_skill": "No",
+      "source": "fictional_fixture"
+    }
+  },
+  "facts": [
+    {
+      "id": "english_level",
+      "value": "Basic",
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "immediate_start",
+      "value": "No",
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "python_practical_years",
+      "value": {
+        "approximate_years": 2
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "salary_usd_month",
+      "value": {
+        "amount": 1800,
+        "currency": "USD",
+        "period": "month"
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "salary_usd_hour",
+      "value": {
+        "amount": 17,
+        "currency": "USD",
+        "period": "hour"
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "salary_brl_month_remote",
+      "value": {
+        "amount": 5100,
+        "currency": "BRL",
+        "period": "month",
+        "work_mode": "remote"
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "salary_brl_month_hybrid",
+      "value": {
+        "amount": 6300,
+        "currency": "BRL",
+        "period": "month",
+        "work_mode": "hybrid"
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "residence",
+      "value": {
+        "country": "Brazil",
+        "city": "Cidade Exemplo",
+        "city_by_job_country": {
+          "brazil": "Cidade Exemplo",
+          "outside_brazil": "Example City"
+        }
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "current_company_answer",
+      "value": "Example Studio",
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "spanish",
+      "value": "Basic",
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "laya_finetuning_project",
+      "value": {
+        "description": "Fictional personal experiment with AI assistance; no real applicant or deployment."
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": true
+    },
+    {
+      "id": "financial_strategy_experience",
+      "value": {
+        "description": "Fictional simulation practice; not neural-network training."
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "edu_google_python",
+      "value": {
+        "description": "Fictional course record for scope tests; not a degree."
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    },
+    {
+      "id": "work_authorization_brazil",
+      "value": {
+        "description": "Fictional domestic-only authorization for scope tests."
+      },
+      "status": "confirmed",
+      "source": {
+        "kind": "fictional_fixture",
+        "evidence": "Authored software test; not personal data"
+      },
+      "constraints": [
+        "Fictional regression data only"
+      ],
+      "ai_export": false
+    }
+  ]
+}

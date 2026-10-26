@@ -1,0 +1,2 @@
+# Optional local vector store; embeddings are obtained via API, not FastEmbed.
+qdrant-client==1.15.1
